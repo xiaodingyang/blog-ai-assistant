@@ -1,5 +1,5 @@
 {
-  "name": "@xdy-npm/blog-ai-assistant-server",
+  "name": "@xiaodingyang/blog-ai-assistant-server",
   "version": "0.1.0",
   "description": "Express middleware for blog AI assistant",
   "main": "dist/index.js",
@@ -22,10 +22,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+    "url": "https://github.com/xiaodingyang/blog-ai-assistant.git"
   },
   "dependencies": {
-    "@xdy-npm/blog-ai-assistant-core": "workspace:*"
+    "@xiaodingyang/blog-ai-assistant-core": "workspace:*"
   },
   "peerDependencies": {
     "express": "^4.18.0"

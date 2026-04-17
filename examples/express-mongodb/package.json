@@ -8,7 +8,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "@xdy-npm/blog-ai-assistant-server": "workspace:*",
+    "@xiaodingyang/blog-ai-assistant-server": "workspace:*",
     "express": "^4.18.2",
     "mongoose": "^8.0.0",
     "dotenv": "^16.3.1",

@@ -1,5 +1,5 @@
 {
-  "name": "@xdy-npm/blog-ai-assistant-react",
+  "name": "@xiaodingyang/blog-ai-assistant-react",
   "version": "0.1.0",
   "description": "React components for blog AI assistant",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+    "url": "https://github.com/xiaodingyang/blog-ai-assistant.git"
   },
   "peerDependencies": {
     "react": "^18.0.0",

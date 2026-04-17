@@ -56,7 +56,7 @@ npm publish --access public
    - 复制生成的 token
 
 2. 在 GitHub 仓库添加 Secret：
-   - 访问 https://github.com/xdy-npm/blog-ai-assistant/settings/secrets/actions
+   - 访问 https://github.com/xiaodingyang/blog-ai-assistant/settings/secrets/actions
    - 点击 "New repository secret"
    - Name: `NPM_TOKEN`
    - Value: 粘贴刚才复制的 token
@@ -109,9 +109,9 @@ git push origin v0.1.1
 ## 验证发布
 
 发布成功后，访问：
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-server
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-react
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-core
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-server
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-react
 
 ## 常见问题
 
@@ -140,7 +140,7 @@ npm version patch
 ⚠️ 谨慎使用！发布后 72 小时内可撤销：
 
 ```bash
-npm unpublish @xdy-npm/blog-ai-assistant-core@0.1.0
+npm unpublish @xiaodingyang/blog-ai-assistant-core@0.1.0
 ```
 
 ## 下一步

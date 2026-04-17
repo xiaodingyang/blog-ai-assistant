@@ -60,7 +60,7 @@
 
 ## 问题反馈
 
-如果你发现 bug 或有功能建议，请在 [Issues](https://github.com/xdy-npm/blog-ai-assistant/issues) 中提出。
+如果你发现 bug 或有功能建议，请在 [Issues](https://github.com/xiaodingyang/blog-ai-assistant/issues) 中提出。
 
 ## 许可证
 

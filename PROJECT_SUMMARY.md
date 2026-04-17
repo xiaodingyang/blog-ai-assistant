@@ -8,7 +8,7 @@
 - ✅ 代码格式化配置（Prettier）
 - ✅ Git 仓库初始化
 
-### 2. 核心包开发 (@xdy-npm/blog-ai-assistant-core)
+### 2. 核心包开发 (@xiaodingyang/blog-ai-assistant-core)
 - ✅ 文本分块（splitContentIntoChunks）
 - ✅ 关键词提取（tokenizeQuestion）
 - ✅ 块评分（scoreChunk）
@@ -17,7 +17,7 @@
 - ✅ JSON 解析容错（parseModelJson）
 - ✅ 构建成功，生成 dist/
 
-### 3. 服务端包开发 (@xdy-npm/blog-ai-assistant-server)
+### 3. 服务端包开发 (@xiaodingyang/blog-ai-assistant-server)
 - ✅ 数据适配器接口
 - ✅ 核心服务类（AiAssistantService）
 - ✅ Express 路由中间件
@@ -26,7 +26,7 @@
 - ✅ 引用验证
 - ✅ 构建成功，生成 dist/
 
-### 4. React 组件包开发 (@xdy-npm/blog-ai-assistant-react)
+### 4. React 组件包开发 (@xiaodingyang/blog-ai-assistant-react)
 - ✅ AiAssistant 问答弹窗组件
 - ✅ AiButton 悬浮按钮组件
 - ✅ 主题定制支持
@@ -61,9 +61,9 @@
 
 | 包名 | 版本 | 描述 | 状态 |
 |------|------|------|------|
-| @xdy-npm/blog-ai-assistant-core | 0.1.0 | 核心检索和 AI 逻辑 | ✅ 已构建 |
-| @xdy-npm/blog-ai-assistant-server | 0.1.0 | Express 中间件 | ✅ 已构建 |
-| @xdy-npm/blog-ai-assistant-react | 0.1.0 | React 组件 | ✅ 已构建 |
+| @xiaodingyang/blog-ai-assistant-core | 0.1.0 | 核心检索和 AI 逻辑 | ✅ 已构建 |
+| @xiaodingyang/blog-ai-assistant-server | 0.1.0 | Express 中间件 | ✅ 已构建 |
+| @xiaodingyang/blog-ai-assistant-react | 0.1.0 | React 组件 | ✅ 已构建 |
 
 ## 🚀 下一步操作
 
@@ -72,7 +72,7 @@
 1. **推送到 GitHub**
    ```bash
    # 在 GitHub 创建仓库后执行
-   git remote add origin https://github.com/xdy-npm/blog-ai-assistant.git
+   git remote add origin https://github.com/xiaodingyang/blog-ai-assistant.git
    git branch -M main
    git push -u origin main
    ```
@@ -141,5 +141,5 @@
 ---
 
 **创建时间**: 2026-04-18  
-**项目地址**: https://github.com/xdy-npm/blog-ai-assistant  
-**npm 包**: @xdy-npm/blog-ai-assistant-*
+**项目地址**: https://github.com/xiaodingyang/blog-ai-assistant  
+**npm 包**: @xiaodingyang/blog-ai-assistant-*

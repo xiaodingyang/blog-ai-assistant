@@ -1,9 +1,13 @@
 # Blog AI Assistant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/%40xdy-npm%2Fblog-ai-assistant-core.svg)](https://badge.fury.io/js/%40xdy-npm%2Fblog-ai-assistant-core)
+[![npm version](https://img.shields.io/npm/v/@xdy-npm/blog-ai-assistant-core.svg)](https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core)
+[![npm downloads](https://img.shields.io/npm/dm/@xdy-npm/blog-ai-assistant-core.svg)](https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core)
+[![GitHub stars](https://img.shields.io/github/stars/xiaodingyang/blog-ai-assistant.svg?style=social)](https://github.com/xiaodingyang/blog-ai-assistant)
 
 轻量级博客 AI 问答助手，基于 RAG（Retrieval-Augmented Generation）架构，支持文章检索和分类扩展。
+
+> 🎯 **核心优势**：无需向量数据库，5 分钟集成，支持任意数据库和框架
 
 ## ✨ 特性
 
@@ -335,7 +339,7 @@ const adapter = {
 
 ## 📮 联系方式
 
-- GitHub Issues: [https://github.com/xdy-npm/blog-ai-assistant/issues](https://github.com/xdy-npm/blog-ai-assistant/issues)
+- GitHub Issues: [https://github.com/xiaodingyang/blog-ai-assistant/issues](https://github.com/xiaodingyang/blog-ai-assistant/issues)
 - Email: your.email@example.com
 
 ---

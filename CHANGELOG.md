@@ -29,5 +29,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 🔄 Category expansion for better results
 - 🛡️ Graceful degradation
 
-[unreleased]: https://github.com/xdy-npm/blog-ai-assistant/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/xdy-npm/blog-ai-assistant/releases/tag/v0.1.0
+[unreleased]: https://github.com/xiaodingyang/blog-ai-assistant/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/xiaodingyang/blog-ai-assistant/releases/tag/v0.1.0

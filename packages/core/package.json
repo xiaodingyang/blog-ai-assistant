@@ -1,5 +1,5 @@
 {
-  "name": "@xdy-npm/blog-ai-assistant-core",
+  "name": "@xiaodingyang/blog-ai-assistant-core",
   "version": "0.1.0",
   "description": "Core retrieval and AI logic for blog AI assistant",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+    "url": "https://github.com/xiaodingyang/blog-ai-assistant.git"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",

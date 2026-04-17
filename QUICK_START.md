@@ -33,7 +33,7 @@ c:/Users/34662/Desktop/work/blog-ai-assistant/
 cd c:/Users/34662/Desktop/work/blog-ai-assistant
 
 # 添加远程仓库
-git remote add origin https://github.com/xdy-npm/blog-ai-assistant.git
+git remote add origin https://github.com/xiaodingyang/blog-ai-assistant.git
 
 # 推送代码
 git branch -M main
@@ -74,14 +74,14 @@ npm publish --access public
 ## 📋 发布后验证
 
 ### GitHub
-- 访问 https://github.com/xdy-npm/blog-ai-assistant
+- 访问 https://github.com/xiaodingyang/blog-ai-assistant
 - 检查代码是否上传成功
 - 检查 Actions 是否运行
 
 ### npm
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-server
-- https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-react
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-core
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-server
+- https://www.npmjs.com/package/@xiaodingyang/blog-ai-assistant-react
 
 ## 📝 发布前注意事项
 

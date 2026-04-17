@@ -20,7 +20,7 @@
 cd c:/Users/34662/Desktop/work/blog-ai-assistant
 
 # 添加远程仓库
-git remote add origin https://github.com/xdy-npm/blog-ai-assistant.git
+git remote add origin https://github.com/xiaodingyang/blog-ai-assistant.git
 
 # 推送代码
 git branch -M main
@@ -29,7 +29,7 @@ git push -u origin main
 
 ## 3. 验证
 
-访问 https://github.com/xdy-npm/blog-ai-assistant 查看代码是否上传成功。
+访问 https://github.com/xiaodingyang/blog-ai-assistant 查看代码是否上传成功。
 
 ---
 

@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+    "url": "https://github.com/xiaodingyang/blog-ai-assistant.git"
   },
   "workspaces": [
     "packages/*",
