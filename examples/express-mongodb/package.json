@@ -1,0 +1,20 @@
+{
+  "name": "express-mongodb-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example: Blog AI Assistant with Express and MongoDB",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@xdy-npm/blog-ai-assistant-server": "workspace:*",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@xdy-npm/blog-ai-assistant-core",
+  "version": "0.1.0",
+  "description": "Core retrieval and AI logic for blog AI assistant",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "keywords": [
+    "rag",
+    "retrieval",
+    "ai",
+    "nlp"
+  ],
+  "author": "xdy <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "blog-ai-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightweight RAG-based AI assistant for blogs and documentation sites",
+  "keywords": [
+    "ai",
+    "rag",
+    "blog",
+    "assistant",
+    "chatbot",
+    "documentation"
+  ],
+  "author": "xdy <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' run build",
+    "test": "pnpm -r run test",
+    "lint": "eslint packages --ext .js,.ts,.tsx",
+    "clean": "pnpm -r run clean"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@xdy-npm/blog-ai-assistant-server",
+  "version": "0.1.0",
+  "description": "Express middleware for blog AI assistant",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "ai",
+    "rag"
+  ],
+  "author": "xdy <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdy-npm/blog-ai-assistant.git"
+  },
+  "dependencies": {
+    "@xdy-npm/blog-ai-assistant-core": "workspace:*"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "express": "^4.18.2",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
