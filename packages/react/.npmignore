@@ -1,0 +1,5 @@
+src/
+tsconfig.json
+*.test.tsx
+*.spec.tsx
+.DS_Store
