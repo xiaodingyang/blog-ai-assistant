@@ -4,10 +4,13 @@
 [![npm version](https://img.shields.io/npm/v/@xdy-npm/blog-ai-assistant-core.svg)](https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core)
 [![npm downloads](https://img.shields.io/npm/dm/@xdy-npm/blog-ai-assistant-core.svg)](https://www.npmjs.com/package/@xdy-npm/blog-ai-assistant-core)
 [![GitHub stars](https://img.shields.io/github/stars/xiaodingyang/blog-ai-assistant.svg?style=social)](https://github.com/xiaodingyang/blog-ai-assistant)
+[![GitHub release](https://img.shields.io/github/v/release/xiaodingyang/blog-ai-assistant.svg)](https://github.com/xiaodingyang/blog-ai-assistant/releases)
 
 轻量级博客 AI 问答助手，基于 RAG（Retrieval-Augmented Generation）架构，支持文章检索和分类扩展。
 
 > 🎯 **核心优势**：无需向量数据库，5 分钟集成，支持任意数据库和框架
+
+[📖 使用指南](./USAGE_GUIDE.md) | [🚀 部署指南](./DEPLOYMENT.md) | [📦 示例项目](./examples) | [🐛 问题反馈](https://github.com/xiaodingyang/blog-ai-assistant/issues)
 
 ## ✨ 特性
 
