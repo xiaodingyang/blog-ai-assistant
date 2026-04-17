@@ -1,18 +1,18 @@
-# @xiaodingyang/blog-ai-assistant-server
+# @xdy-npm/blog-ai-assistant-server
 
 Express middleware for blog AI assistant.
 
 ## Installation
 
 ```bash
-npm install @xiaodingyang/blog-ai-assistant-server @xiaodingyang/blog-ai-assistant-core
+npm install @xdy-npm/blog-ai-assistant-server @xdy-npm/blog-ai-assistant-core
 ```
 
 ## Usage
 
 ```javascript
 const express = require('express');
-const { createAiAssistantRouter } = require('@xiaodingyang/blog-ai-assistant-server');
+const { createAiAssistantRouter } = require('@xdy-npm/blog-ai-assistant-server');
 
 const app = express();
 app.use(express.json());

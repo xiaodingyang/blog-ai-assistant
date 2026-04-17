@@ -1,11 +1,11 @@
-# @xiaodingyang/blog-ai-assistant-core
+# @xdy-npm/blog-ai-assistant-core
 
 Core retrieval and AI logic for blog AI assistant.
 
 ## Installation
 
 ```bash
-npm install @xiaodingyang/blog-ai-assistant-core
+npm install @xdy-npm/blog-ai-assistant-core
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @xiaodingyang/blog-ai-assistant-core
 ### Text Chunking
 
 ```typescript
-import { splitContentIntoChunks } from '@xiaodingyang/blog-ai-assistant-core';
+import { splitContentIntoChunks } from '@xdy-npm/blog-ai-assistant-core';
 
 const chunks = splitContentIntoChunks(article.content, {
   maxLength: 900,
@@ -24,7 +24,7 @@ const chunks = splitContentIntoChunks(article.content, {
 ### Keyword Extraction
 
 ```typescript
-import { tokenizeQuestion } from '@xiaodingyang/blog-ai-assistant-core';
+import { tokenizeQuestion } from '@xdy-npm/blog-ai-assistant-core';
 
 const tokens = tokenizeQuestion('如何使用 React Hooks？');
 // ['如何', '使用', 'react', 'hooks', '如何使', '何使用', ...]
@@ -33,7 +33,7 @@ const tokens = tokenizeQuestion('如何使用 React Hooks？');
 ### Chunk Scoring
 
 ```typescript
-import { scoreChunk } from '@xiaodingyang/blog-ai-assistant-core';
+import { scoreChunk } from '@xdy-npm/blog-ai-assistant-core';
 
 const score = scoreChunk(chunk.text, tokens);
 ```
@@ -41,7 +41,7 @@ const score = scoreChunk(chunk.text, tokens);
 ### Top-K Selection
 
 ```typescript
-import { pickTopChunks } from '@xiaodingyang/blog-ai-assistant-core';
+import { pickTopChunks } from '@xdy-npm/blog-ai-assistant-core';
 
 const topChunks = pickTopChunks(chunks, question, {
   topK: 6,
@@ -52,7 +52,7 @@ const topChunks = pickTopChunks(chunks, question, {
 ### AI Calling
 
 ```typescript
-import { callChatCompletions } from '@xiaodingyang/blog-ai-assistant-core';
+import { callChatCompletions } from '@xdy-npm/blog-ai-assistant-core';
 
 const { content, usage } = await callChatCompletions(
   [
@@ -70,7 +70,7 @@ const { content, usage } = await callChatCompletions(
 ### JSON Parsing
 
 ```typescript
-import { parseModelJson } from '@xiaodingyang/blog-ai-assistant-core';
+import { parseModelJson } from '@xdy-npm/blog-ai-assistant-core';
 
 const parsed = parseModelJson<{ answer: string }>(content);
 ```

@@ -1,18 +1,18 @@
-# @xiaodingyang/blog-ai-assistant-react
+# @xdy-npm/blog-ai-assistant-react
 
 React components for blog AI assistant.
 
 ## Installation
 
 ```bash
-npm install @xiaodingyang/blog-ai-assistant-react
+npm install @xdy-npm/blog-ai-assistant-react
 ```
 
 ## Usage
 
 ```tsx
 import React, { useState } from 'react';
-import { AiAssistant, AiButton } from '@xiaodingyang/blog-ai-assistant-react';
+import { AiAssistant, AiButton } from '@xdy-npm/blog-ai-assistant-react';
 
 function App() {
   const [open, setOpen] = useState(false);
